@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- NAVBAR DRK STARTS HERE -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Kulturaktiebolaget</a>
         <button
@@ -54,17 +54,46 @@
     <!-- NAVBAR END -->
 
     <!-- HEADER START -->
-    <header>
-      <div class="jumbotron text-center bg-dark text-white">
-        <div class="col-10-auto p-5">
-          <h1 class="display-1">ARTIST-<br />AGENTUR</h1>
-          <p class="Subtitle">
-            Är du en musiker, trollkarl eller skitrolig komiker som vill maxa
-            tiden på scen?
+    
+    <div class="container-fluid ">
+      <div class="row flex-lg-row-reverse bg-success">
+        <!-- IMG BOX -->
+        <!-- ISSUE: img flowing into the section below -->
+        <div class="col-xs-12 col-md-6 col-lg-6 px-0">
+          <img
+            src="https://picsum.photos/1000/1000"
+            class="d-block mx-lg-auto img-fluid"
+            alt="artist"
+            height="auto"
+            width="100%"
+            loading="lazy"
+          />
+        </div>
+        <!-- TEXT BOX -->
+        <div class="col-xs-12 col-md-6 col-lg-5 align-self-center">
+            
+          <h1 class="display-5 fw-bold lh-1 mb-3">Förnamn Efternamn</h1>
+
+          <p class="label1">STANDUP</p>
+          <p class="lead">
+            Känd för sin ofta politiska, liberala och provokativa humorstil har
+            Magnus Betnérs bejublade standup-turné spelat för fulla hus.
           </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start"
+          >
+            <button type="button" class="btn btn-dark btn-sm px-4 me-md-2">
+              Primary
+            </button>
+            <button type="button" class="btn btn-dark btn-sm btn-lg px-4">
+              Default
+            </button>
+          </div>
+          </div>
         </div>
       </div>
-    </header>
+    </div>
+
     <!-- HEADER END -->
 
     <main>
