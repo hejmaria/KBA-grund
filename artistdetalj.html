@@ -11,8 +11,9 @@
     />
   </head>
   <body>
-    <!-- NAVBAR DRK STARTS HERE -->
-    <nav class="navbar navbar-expand-lg fixed-top py-3">
+    <!-- NAVBAR STARTS HERE -->
+    <!-- NAVBAR TOO WIDE IN MOBILE -->
+    <nav class="navbar navbar-expand-lg fixed-top py-3 overflow-auto">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Kulturaktiebolaget</a>
         <button
@@ -47,157 +48,49 @@
           </ul>
         </div>
       </div>
-
-      <!-- <button class="btn btn-danger navbar-btn">BOKA ARTIST</button>
-      <button class="btn btn-danger navbar-btn">KALENDER</button> -->
     </nav>
     <!-- NAVBAR END -->
-
-    <!-- HEADER START -->
-    
-    <div class="container-fluid ">
-      <div class="row flex-lg-row-reverse bg-success">
-        <!-- IMG BOX -->
-        <!-- ISSUE: img flowing into the section below -->
-        <div class="col-xs-12 col-md-6 col-lg-6 px-0">
-          <img
-            src="https://picsum.photos/1000/1000"
-            class="d-block mx-lg-auto img-fluid"
-            alt="artist"
-            height="auto"
-            width="100%"
-            loading="lazy"
-          />
-        </div>
-        <!-- TEXT BOX -->
-        <div class="col-xs-12 col-md-6 col-lg-5 align-self-center">
-            
-          <h1 class="display-5 fw-bold lh-1 mb-3">Förnamn Efternamn</h1>
-
-          <p class="label1">STANDUP</p>
-          <p class="lead">
-            Känd för sin ofta politiska, liberala och provokativa humorstil har
-            Magnus Betnérs bejublade standup-turné spelat för fulla hus.
-          </p>
-          <div
-            class="d-grid gap-2 d-md-flex justify-content-md-start"
-          >
-            <button type="button" class="btn btn-dark btn-sm px-4 me-md-2">
-              Primary
-            </button>
-            <button type="button" class="btn btn-dark btn-sm btn-lg px-4">
-              Default
-            </button>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- HEADER END -->
-
     <main>
-      <!-- ARTIST GRID -->
-      <div class="container-fluid bg-dark">
-        <div class="container pb-5 bg-dark">
-          <div class="row row-cols-md-4 g-4">
-            <div class="card h-100 text-white border-0 bg-dark">
-              <img
-                class="card-img"
-                src="https://picsum.photos/300/350"
-                alt="Card image"
-              />
-              <div class="card-img-overlay pl-6">
-                <h5 class="card-title">ARTIST</h5>
-              </div>
-            </div>
+      <!-- HEADER START -->
 
-            <div class="card h-100 text-white border-0 bg-dark">
-              <img
-                class="card-img"
-                src="https://picsum.photos/300/350"
-                alt="Card image"
-              />
-              <div class="card-img-overlay">
-                <h5 class="card-title">ARTIST</h5>
-              </div>
-            </div>
-            <div class="card h-100 text-white border-0 bg-dark">
-              <img
-                class="card-img"
-                src="https://picsum.photos/300/350"
-                alt="Card image"
-              />
-              <div class="card-img-overlay">
-                <h5 class="card-title">ARTIST</h5>
-              </div>
-            </div>
-            <div class="card h-100 text-white border-0 bg-dark">
-              <img
-                class="card-img"
-                src="https://picsum.photos/300/350"
-                alt="Card image"
-              />
-              <div class="card-img-overlay">
-                <h5 class="card-title">ARTIST</h5>
-              </div>
-            </div>
-            <div class="card h-100 text-white border-0 bg-dark">
-              <img
-                class="card-img"
-                src="https://picsum.photos/300/350"
-                alt="Card image"
-              />
-              <div class="card-img-overlay">
-                <h5 class="card-title">ARTIST</h5>
-              </div>
-            </div>
-            <div class="card h-100 text-white border-0 bg-dark">
-              <img
-                class="card-img"
-                src="https://picsum.photos/300/350"
-                alt="Card image"
-              />
-              <div class="card-img-overlay">
-                <h5 class="card-title">ARTIST</h5>
-              </div>
-            </div>
-            <div class="card h-100 text-white border-0 bg-dark">
-              <img
-                class="card-img"
-                src="https://picsum.photos/300/350"
-                alt="Card image"
-              />
-              <div class="card-img-overlay">
-                <h5 class="card-title">ARTIST</h5>
-              </div>
-            </div>
-            <div class="card h-100 text-white border-0 bg-dark">
-              <img
-                class="card-img"
-                src="https://picsum.photos/300/350"
-                alt="Card image"
-              />
-              <div class="card-img-overlay">
-                <h5 class="card-title">ARTIST</h5>
-              </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row flex-md-row-reverse bg-success">
+          <!-- IMG BOX -->
+
+          <div class="col-xs-12 col-md-6 col-lg-6 px-0">
+            <img
+              src="https://picsum.photos/1000/1000"
+              class="d-block mx-lg-auto img-fluid"
+              alt="artist"
+              loading="lazy"
+            />
           </div>
-          <div class="row justify-content-center">
-            <div class="col-md-8 text-center text-white pt-5">
-              <p class="subtitle">Det är ganska enkelt:</p>
+          <!-- TEXT BOX -->
+          <div class="col-xs-12 col-md-6 col-lg-5 align-self-center">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Förnamn Efternamn</h1>
 
-              <p class="subtitle">
-                När vi tar hand om det praktiska runtomkring frigör du tid (och
-                framförallt ork) att möta publiken.
-              </p>
-
-              <p class="subtitle">Häng med, så förklarar vi mer...</p>
+            <p class="label1">STANDUP</p>
+            <p class="lead">
+              Känd för sin ofta politiska, liberala och provokativa humorstil
+              har Magnus Betnérs bejublade standup-turné spelat för fulla hus.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-dark btn-sm px-4 me-md-2">
+                Primary
+              </button>
+              <button type="button" class="btn btn-dark btn-sm btn-lg px-4">
+                Default
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <!-- ARTIST GRID END -->
+
+      <!-- HEADER END -->
+
+      <!--  BILJETTER GRID -->
+
+      <!-- BILJETTER GRID END -->
 
       <!-- FEATURE CARD SECTION -->
 
